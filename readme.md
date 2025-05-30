@@ -42,7 +42,7 @@ If you find this work useful for your research, please cite our paper:
 - Federico Betti - University of Trento, Italy
 - Marcella Cornia - University of Modena and Reggio Emilia, Italy
 - Lorenzo Baraldi - University of Modena and Reggio Emilia, Italy
-- Niculae Sebe - University of Trento, Italy
+- Nicu Sebe - University of Trento, Italy
 - Rita Cucchiara - University of Modena and Reggio Emilia, Italy
 
 
