@@ -1,7 +1,7 @@
 # DICE: Detecting and Evaluating Instruction-Guided Image Edits
 
 [![Project Page](https://img.shields.io/badge/Project-Page-blue)](https://aimagelab.github.io/DICE)
-[![arXiv](https://img.shields.io/badge/arXiv-Paper-red)]()
+[![arXiv](https://img.shields.io/badge/arXiv-Paper-red)](https://arxiv.org/abs/2505.20405)
 [![GitHub](https://img.shields.io/badge/GitHub-Code-black)](https://github.com/aimagelab/DICE)
 
 Official implementation of "What Changed? Detecting and Evaluating Instruction-Guided Image Edits with Multimodal Large Language Models"
