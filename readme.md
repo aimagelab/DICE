@@ -30,7 +30,7 @@ If you find this work useful for your research, please cite our paper:
 @inproceedings{baraldi2025dice,
   title     = {What Changed? Detecting and Evaluating Instruction-Guided Image Edits with Multimodal Large Language Models},
   author    = {Baraldi, Lorenzo and Bucciarelli, Davide and Betti, Federico and Cornia, Marcella and Baraldi, Lorenzo and Sebe, Niculae and Cucchiara, Rita},
-  booktitle = {arxiv preprint},
+  booktitle = {ICCV},
   year      = {2025}
 }
 ```
@@ -47,7 +47,34 @@ If you find this work useful for your research, please cite our paper:
 
 
 ## Code
-Coming Soon!
+# Simple Evaluation Bundle
+
+This folder contains a self-contained copy of the assets required to run `simple_evaluation_example.py`
+
+
+
+## Contents
+
+- `simple_evaluation_example.py`: evaluation entry point.
+- `original.jpg`, `edited.jpg`: sample original/edited images
+  - `editing_evaluation/`: evaluation package.
+  - `dataset/`: dataset utilities (includes coherence dataset loader).
+  - `requirements.txt`, `README.md`: reference documentation and dependencies.
+
+## Model Weights
+
+Download the required model weights from:
+https://huggingface.co/collections/aimagelab/dice
+
+## Usage
+
+Run the script from within this directory to keep relative paths valid:
+
+```bash
+cd simple_evaluation_bundle
+python simple_evaluation_example.py
+```
+
 
 ## Contact
 
