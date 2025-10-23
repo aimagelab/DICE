@@ -27,11 +27,11 @@ The framework consists of two main components:
 If you find this work useful for your research, please cite our paper:
 
 ```bibtex
-@inproceedings{baraldi2025dice,
-  title     = {What Changed? Detecting and Evaluating Instruction-Guided Image Edits with Multimodal Large Language Models},
-  author    = {Baraldi, Lorenzo and Bucciarelli, Davide and Betti, Federico and Cornia, Marcella and Baraldi, Lorenzo and Sebe, Niculae and Cucchiara, Rita},
-  booktitle = {ICCV},
-  year      = {2025}
+@inproceedings{baraldi2025changed,
+  title={What Changed? Detecting and Evaluating Instruction-Guided Image Edits with Multimodal Large Language Models},
+  author={Baraldi, Lorenzo and Bucciarelli, Davide and Betti, Federico and Cornia, Marcella and Sebe, Nicu and Cucchiara, Rita and others},
+  booktitle={Proceedings of the 2025 IEEE/CVF International Conference on Computer Vision},
+  year={2025}
 }
 ```
 
