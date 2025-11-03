@@ -113,17 +113,17 @@ def main():
     # CONFIGURATION - UPDATE THESE PATHS
     # ============================================================================
 
-    # Model checkpoints (LoRA weights)
-    BASE_MODEL_DIFFERENCE = "/leonardo_scratch/large/userexternal/dbucciar/hf-cache/hf-cache/hub/models--aimagelab--DICE_differencedet_Idefics/snapshots/2dea6affae3772528bbbfdf11983080354a076aa/model_based_tuned_stage1/image_first_after15k_after_lvis_idefics"
-    DIFFERENCE_MODEL_CHECKPOINT = "/leonardo_scratch/large/userexternal/dbucciar/hf-cache/hf-cache/hub/models--aimagelab--DICE_differencedet_Idefics/snapshots/2dea6affae3772528bbbfdf11983080354a076aa/lora_tuned_stage2/checkpoint-15000"
-    COHERENCE_MODEL_CHECKPOINT = "/leonardo_scratch/large/userexternal/dbucciar/hf-cache/hf-cache/hub/models--aimagelab--DICE_coherence_Idefics/snapshots/67c98141f85a42a122f64d65eb70bfed4d2d8bf7/lora_tuned/checkpoint-550"
-    BASE_IDEFICS = "/leonardo_scratch/large/userexternal/dbucciar/hf-cache/hf-cache/hub/models--HuggingFaceM4--Idefics3-8B-Llama3/snapshots/fddb4ff79181e55a994674777e06cd5456ce3dc3"
+    # Model checkpoints (LoRA weights). Download models from HF link in readme
+    BASE_MODEL_DIFFERENCE = "models--aimagelab--DICE_differencedet_Idefics/snapshots/2dea6affae3772528bbbfdf11983080354a076aa/model_based_tuned_stage1/image_first_after15k_after_lvis_idefics"
+    DIFFERENCE_MODEL_CHECKPOINT = "models--aimagelab--DICE_differencedet_Idefics/snapshots/2dea6affae3772528bbbfdf11983080354a076aa/lora_tuned_stage2/checkpoint-15000"
+    COHERENCE_MODEL_CHECKPOINT = "models--aimagelab--DICE_coherence_Idefics/snapshots/67c98141f85a42a122f64d65eb70bfed4d2d8bf7/lora_tuned/checkpoint-550"
+    BASE_IDEFICS = "models--HuggingFaceM4--Idefics3-8B-Llama3/snapshots/fddb4ff79181e55a994674777e06cd5456ce3dc3"
     # HuggingFace cache directory
-    HF_CACHE = "/leonardo_scratch/large/userexternal/dbucciar/hf-cache/hf-cache"
+    HF_CACHE = "PATH_TO_HF_CACHE"
 
     # Test images
-    IMAGE_ORIGINAL = "0028.jpg"
-    IMAGE_EDITED = "0028_mgie.jpg"
+    IMAGE_ORIGINAL = "original.jpg"
+    IMAGE_EDITED = "edited.jpg"
     EDIT_PROMPT = "Change the color of the vase to yellow"
     OUTPUT_DIR = "./output"
 
